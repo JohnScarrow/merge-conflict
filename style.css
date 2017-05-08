@@ -1,0 +1,22 @@
+body{
+  width: 960px;
+}
+.header-right{
+  float: right;
+}
+.menu div{
+  display: inline-block;
+  width: calc((100% / 9) - 20px);
+}
+.menu div:hover{
+  background-color: blue;
+  color: white;
+}
+.search{
+  display: inline-block;
+  width: 29%;
+}
+.news{
+  display: inline-block;
+  width: 70%;
+}
